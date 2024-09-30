@@ -23,9 +23,6 @@ interface SheetResponse {
     tasks:Case[]
 }
 
-const handleJSONFilter = (s:string) => {
-
-}
 
 function App() {
 

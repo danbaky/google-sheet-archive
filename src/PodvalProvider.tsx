@@ -2,7 +2,7 @@ import Podval from "./Podval"
 import React, { Fragment } from "react";
 import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
+// import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 
@@ -20,7 +20,7 @@ const PodvalProvider = (data: SheetResponse) => {
     const [expanded, setExpanded] = React.useState<string | false>(false);
 
     const handleChange =
-        (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
+        (panel: string) => (_event: React.SyntheticEvent, isExpanded: boolean) => {
             setExpanded(isExpanded ? panel : false);
         };
 

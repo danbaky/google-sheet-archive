@@ -1,7 +1,7 @@
 
 import Button from '@mui/material/Button';
 import Accordion from '@mui/material/Accordion';
-import AccordionActions from '@mui/material/AccordionActions';
+// import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -33,7 +33,7 @@ const copyTextToClipboard = async (text:string) => {
 
 const Podval:React.FC<IProps> = ({func, expa, name, children}) => {
 
-    const [expand, setExpand] = React.useState(expa === name)
+    // const [expand, setExpand] = React.useState(expa === name)
 
 
     return(
